@@ -1,9 +1,10 @@
 import socket
 import threading
 import os
+import sys
 
 
-#Talking to client
+
 def handle_client(connection_socket, ADDR):
     print(f"Connected to {ADDR}")
     try:
@@ -61,12 +62,12 @@ def handle_ls(connection_socket):
     connection_socket.sendall(ls_output)
 
 def main():
-    SERVER_PORT = 12000
+    SERVER_PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 12000
     SERVER_SOCKET = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     SERVER_SOCKET.bind(('', SERVER_PORT))
     SERVER_SOCKET.listen(5)
-    print("The server is ready to receive")
+    print(f"The server is ready to receive at port {SERVER_PORT}")
 
     try:
         while True:

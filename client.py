@@ -1,11 +1,13 @@
 import socket
 import os
+import sys
 
 
 
 def main():
     SERVER_NAME = 'localhost'
-    SERVER_PORT = 12000
+    SERVER_PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 12000
+
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((SERVER_NAME, SERVER_PORT))
@@ -32,6 +34,7 @@ def main():
     finally:
         client_socket.close()
         print("Connection closed")
+        
 
 def handle_get(client_socket, filename):
     header = client_socket.recv(1024).decode()
