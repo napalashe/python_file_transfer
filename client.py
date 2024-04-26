@@ -33,7 +33,7 @@ def main():
                 print(client_socket.recv(1024).decode())
     finally:
         client_socket.close()
-        print("Connection closed")
+        print("Closing client...")
         
 
 def handle_get(client_socket, filename):

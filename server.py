@@ -22,7 +22,7 @@ def handle_client(connection_socket, ADDR):
                 handle_put(connection_socket, filename)
             elif command == 'LS':
                 handle_ls(connection_socket)
-            elif command == 'QUIT' or 'quit':
+            elif command == 'QUIT':
                 connection_socket.sendall("Connection closed".encode())
                 break
             else:
