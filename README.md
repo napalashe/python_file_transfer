@@ -8,24 +8,21 @@
     
 
   <h2>Project Members:</h2>
-    <ul>
-    <ul>Name: Christopher Mireles, Email: Napalashe@csu.fullerton.edu</ul>
-    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
-    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
-    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
-    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+<ol>
+<ul>Name: Christopher Mireles, Email: Napalashe@csu.fullerton.edu</ul>
+<ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+<ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+<ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+<ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
         
-</ul>
+</ol>
 
   <h2>Programming Language:</h2>
     <p>Python</p>
     
   <h2>Requirements to run</h2>
       <p>
-          <li>
-              <ul>
                   Python3
-            </li>
       </p>
 
   <h2>How to Execute the Program:</h2>
