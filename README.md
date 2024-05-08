@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Python File Transfer</title>
+    <h1>Python File Transfer </h1>
     <p><strong>CPSC 470</strong></p>
 </head>
 <body>
-    <h1>README</h1>
+    
 
   <h2>Project Partners:</h2>
     <ul>
-        <li>Name: Christopher Mireles, Email: Napalashe@csu.fullerton.edu</li>
-        <li>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </li>
-        <li>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </li>
-        <li>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </li>
-        <li>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </li>
+        <ul>Name: Christopher Mireles, Email: Napalashe@csu.fullerton.edu</ul>
+        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
         
-    </ul>
+</ul>
 
   <h2>Programming Language:</h2>
     <p>Python</p>
