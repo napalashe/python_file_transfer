@@ -2,7 +2,7 @@
 <html>
 <head>
     <h1>Python File Transfer </h1>
-    <p><strong>CPSC 470</strong></p>
+    <p><strong>CPSC 471</strong></p>
 </head>
 <body>
     
