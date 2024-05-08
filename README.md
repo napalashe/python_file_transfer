@@ -50,7 +50,7 @@
             </ul>
         </li>
   </ol>
-
+<p><strong>The server has no files to start so you must perform a PUT to download the file on the server side. The GET will occur in an error message unless you have already sent a PUT operation to the server.</strong></p>
   <h2>Notes:</h2>
    <p>
         Ensure that both <code>client.py</code> and <code>server.py</code> are in directories that the executing user has read and write permissions for, as file operations are performed in these directories.
