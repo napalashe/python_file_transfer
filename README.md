@@ -7,27 +7,36 @@
 <body>
     
 
-  <h2>Project Partners:</h2>
+  <h2>Project Members:</h2>
     <ul>
-        <ul>Name: Christopher Mireles, Email: Napalashe@csu.fullerton.edu</ul>
-        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
-        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
-        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
-        <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+    <ul>Name: Christopher Mireles, Email: Napalashe@csu.fullerton.edu</ul>
+    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+    <ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
         
 </ul>
 
   <h2>Programming Language:</h2>
     <p>Python</p>
+    
+  <h2>Requirements to run</h2>
+      <p>
+          <li>
+              <ul>
+                  Python3
+            </li>
+      </p>
 
   <h2>How to Execute the Program:</h2>
-  <h3>Server Execution:</h3>
+  <h3>Server.py Execution:</h3>
   <ol>
         <li>Navigate to the directory containing <code>server.py</code>.</li>
         <li>Open a terminal in this directory.</li>
         <li>Run the command <code>python3 server.py {insert port number}</code>.</li>
         <li>The server will start and wait for connections on port {port_number}.</li>
     </ol>
+    <p>If you do not put a port number it will default to 1200 but it is reccomended to pick your own port.</p>
 
   <h3>Client Execution:</h3>
   <ol>
