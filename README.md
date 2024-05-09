@@ -13,7 +13,7 @@
 <ul>Name: Justin Gerard Perez, Email: justingp45@csu.fullerton.edu </ul>
 <ul>Name: Aidan Jahn, Email: nobody34@csu.fullerton.edu </ul>
 <ul>Name: Dereck Jimenez, Email: jimenezd@csu.fullerton.edu </ul>
-<ul>Name: [INSERT YOUR NAME], Email: [INSERT EMAIL] </ul>
+<ul>Name: Dylan Jaime, Email: djaime0@csu.fullerton.edu </ul>
         
 </ol>
 
